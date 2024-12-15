@@ -1,3 +1,7 @@
-PROPOSAL
+#Make Project:
 
-ok das wird super
+Machen wir noch
+
+#PROPOSAL:
+
+[proposal.md]
