@@ -4,4 +4,4 @@ Machen wir noch
 
 #PROPOSAL:
 
-[proposal.md]
+[Written Proposal](proposal.md)
