@@ -1,7 +1,7 @@
-#Make Project:
+# Projekt aufsetzen:
 
 Machen wir noch
 
-#PROPOSAL:
+# Proposal:
 
 [Written Proposal](proposal.md)
