@@ -23,7 +23,7 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - Dynatrace 
 
 ## Meilensteine 
-![alt text](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/Meilensteine.png)
+![alt text]([https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/Meilensteine.png](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/meilensteineCLC.png))
 1) Kubernetes Cluster einrichten + Microservice darin deployen (26.12.2014) 
 2) Dynatrace Testversion beantragen + einrichten (02.01.2025)
 3) Integration von Dynatrace zum Monitoring (06.01.2025)
