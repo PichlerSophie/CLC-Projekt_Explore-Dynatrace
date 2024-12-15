@@ -12,10 +12,7 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - Das Produkt Dynatrace wird eingerichtet, um unsere Anwendung überwachen zu können. 
 
 ## Architektur Diagramm 
-
-    To Do 
-
-    MACHEN WIR SPÄTER 
+![Architektur Diagramm](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/ArchitekturDiagramm.png)
 
 ## Welche Cloud Technologien werden verwendet? 
 - Google Cloud 
@@ -23,7 +20,7 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - Dynatrace 
 
 ## Meilensteine 
-![alt text](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/meilensteineCLC.png)
+![Meilensteine](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/meilensteineCLC.png)
 1) Kubernetes Cluster einrichten + Microservice darin deployen (26.12.2014) 
 2) Dynatrace Testversion beantragen + einrichten (02.01.2025)
 3) Integration von Dynatrace zum Monitoring (06.01.2025)
