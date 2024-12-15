@@ -5,7 +5,7 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 
 ## Was existiert bereits? 
 - Dynatrace Testversion wird genutzt, um die Überwachung durchzuführen 
-- Der Microservice (https://github.com/GoogleCloudPlatform/microservices-demo)  
+- Der Microservice (https://github.com/GoogleCloudPlatform/microservices-demo)  *Da wir keine eigene Microservice-Implementierung zur Verfügung haben, haben wir uns für die Verwendung einer Demo-Lösung aus dem Internet entschieden. Die Demo Lösung ist auf GitHub frei verfügbar.
 
 ## Was wird neu konfiguriert bzw. erstellt? 
 - Ein neuer Kubernetes Cluster wird erstellt, darin wird der zu überwachende Microservice aufgesetzt. 
