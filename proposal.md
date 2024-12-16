@@ -13,9 +13,9 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 
 ## Dynatrace Features im Detail
 ### Kubernetes Monitoring
-- Kontinuierliche Erkennung und Überwachung: Dynatrace erkennt automatisch Kubernetes-Nodes und -Pods und überwacht kontinuierlich deren Status sowie Ressourcenverbrauch
-- Metriken, Ereignisse und Logs in einer Übersicht: Alle relevanten Daten zu den Kubernetes-Pods und -Nodes werden in einem Dashboard zusammengefasst
-- Log-Analyse für Workload-Einblicke: Durch die Analyse von Logs gewinnen wir Einblicke in die Container-Workloads, was uns helfen kann Probleme zu identifizieren.
+- **Kontinuierliche Erkennung und Überwachung:** Dynatrace erkennt automatisch Kubernetes-Nodes und -Pods und überwacht kontinuierlich deren Status sowie Ressourcenverbrauch
+- **Metriken, Ereignisse und Logs in einer Übersicht:** Alle relevanten Daten zu den Kubernetes-Pods und -Nodes werden in einem Dashboard zusammengefasst
+- **Log-Analyse für Workload-Einblicke:** Durch die Analyse von Logs gewinnen wir Einblicke in die Container-Workloads, was uns helfen kann Probleme zu identifizieren.
 
 ## Architektur Diagramm 
 ![Architektur Diagramm](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/ArchitekturDiagramm.png)
