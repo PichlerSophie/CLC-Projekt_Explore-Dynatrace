@@ -1,7 +1,7 @@
 # Proposal - Explore Dynatrace to observe your application 
 
 ## Ziel: 
-In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden. Die Anwendung soll in einem Kubernetes Cluster aufgesetzt sein. Haupt-Ziel ist es, herauszufinden welche Kubernetes-Ressourcen (Nodes, Pods, etc.), Traces, Logs und Metriken überwacht werden können. Unter anderem wollen wir Probleme in der Anwendung erkennen. 
+In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden. Die Anwendung soll in einem Kubernetes Cluster aufgesetzt sein. Unser Hauptziel ist es, mithilfe spezifischer Dynatrace-Funktionen wie Kubernetes Monitoring, Distributed Tracing und Service Monitoring die Infrastruktur und das Verhalten des Microservices zu analysieren. Damit möchten wir Ressourcenauslastung, Leistungsengpässe und Fehlerquellen in der Anwendung identifizieren.
 
 ## Was existiert bereits? 
 - Dynatrace Testversion wird genutzt, um die Überwachung durchzuführen 
@@ -9,7 +9,13 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 
 ## Was wird neu konfiguriert bzw. erstellt? 
 - Ein neuer Kubernetes Cluster wird erstellt, darin wird der zu überwachende Microservice aufgesetzt. 
-- Das Produkt Dynatrace wird eingerichtet, um unsere Anwendung überwachen zu können. 
+- Das Produkt Dynatrace wird eingerichtet, um unsere Anwendung überwachen zu können.
+
+## Dynatrace Features im Detail
+### Kubernetes Monitoring
+- Kontinuierliche Erkennung und Überwachung: Dynatrace erkennt automatisch Kubernetes-Nodes und -Pods und überwacht kontinuierlich deren Status sowie Ressourcenverbrauch
+- Metriken, Ereignisse und Logs in einer Übersicht: Alle relevanten Daten zu den Kubernetes-Pods und -Nodes werden in einem Dashboard zusammengefasst
+- Log-Analyse für Workload-Einblicke: Durch die Analyse von Logs gewinnen wir Einblicke in die Container-Workloads, was uns helfen kann Probleme zu identifizieren.
 
 ## Architektur Diagramm 
 ![Architektur Diagramm](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/ArchitekturDiagramm.png)
