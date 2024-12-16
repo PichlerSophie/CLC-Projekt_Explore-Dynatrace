@@ -23,6 +23,11 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - **Einblicke und Fehlersuche**: Die integrierte Analyse macht es leicht, spezifische Fehler oder ungewöhnliche Verhaltensweisen in Logs aufzuspüren.
 - [Log Monitoring - Dynatrace](https://www.dynatrace.com/de/platform/log-monitoring/?utm_source=chatgpt.com)
 
+### Application Security
+- **Analyse von Laufzeitschwachstellen in Echtzeit erkennen:** Dynatrace erkennt Schwachstellen, die sofortiger Aufmerksamkeit bedürfen und kann automatische Risiko- und Auswirkungsbewertungen bereitstellen.
+- **Laufzeit-Anwendungsschutz:** Angriffe auf die Anwendung können automatisch erkannt und blockiert werden in Echtzeit, ohne kritische Prozesse zu beeinträchtigen.
+- **Automatische Überprüfung neuer kritscher Schwachstellen:** Dynatrace überprüft, dass keine neuen kritischen Schwachstellen implementiert wurden. Die Ergebnisse und das Monitoring können in einem Dashboard analysiert werden.
+
 ## Architektur Diagramm 
 ![Architektur Diagramm](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/ArchitekturDiagramm.png)
 
