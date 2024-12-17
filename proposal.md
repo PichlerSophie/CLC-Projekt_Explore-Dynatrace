@@ -21,7 +21,6 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - **Automatische Erkennung von eingehenden Logs**: Hier sammelt Dynatrace Logs aus verschiedenen Quellen, darunter WindowsEvent-Logs, Container-Logs und Anwendungslogs, ohne zusätliche Konfigurationen zu benötigen.
 - **Zentralisierte Übersicht aller Log-Daten**: Alle Logs werden mit anderen Observability-Daten wie Traces und Metriken in einer zentralen Ansicht kombiniert.
 - **Einblicke und Fehlersuche**: Die integrierte Analyse macht es leicht, spezifische Fehler oder ungewöhnliche Verhaltensweisen in Logs aufzuspüren.
-- [Log Monitoring - Dynatrace](https://www.dynatrace.com/de/platform/log-monitoring/?utm_source=chatgpt.com)
 
 ### Application Security
 - **Analyse von Laufzeitschwachstellen in Echtzeit erkennen:** Dynatrace erkennt Schwachstellen, die sofortiger Aufmerksamkeit bedürfen und kann automatische Risiko- und Auswirkungsbewertungen bereitstellen.
