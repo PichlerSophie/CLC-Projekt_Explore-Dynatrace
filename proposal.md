@@ -48,15 +48,17 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 ## Arbeitsteilung & Verantwortlichkeiten 
 
 ### Gabath: 
-- Meilenstein 4 
+- Meilenstein 4
+- Meilenstein 5 (Log Monitoring)
 
 ### Huber: 
-- Meilenstein 1 
+- Meilenstein 1
+- Meilenstein 5 (Application Security)
 
 ### Pichler: 
-- Meilenstein 2 & 3 
+- Meilenstein 2 & 3
+- Meilenstein 5 (Kubernetes Monitoring)
 
 ### Alle gemeinsam 
-- Meilenstein 5 
 - Meilenstein 6 
 - Meilenstein 7 
