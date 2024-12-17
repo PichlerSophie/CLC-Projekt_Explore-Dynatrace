@@ -18,7 +18,7 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - **Log-Analyse für Workload-Einblicke:** Durch die Analyse gewinnen wir Einblicke in die Container-Workloads, was uns helfen kann Probleme zu identifizieren.
 
 ### Log Monitoring
-- **Automatische Erkennung von eingehenden Logs**: Hier sammelt Dynatrace Logs aus verschiedenen Quellen, darunter WindowsEvent-Logs, Container-Logs und Anwendungslogs, ohne zusätliche Konfigurationen zu benötigen.
+- **Automatische Erkennung von eingehenden Logs**: Hier sammelt Dynatrace Logs aus verschiedenen Quellen, darunter WindowsEvent-Logs, Container-Logs und Anwendungslogs, ohne zusätzliche Konfigurationen zu benötigen.
 - **Zentralisierte Übersicht aller Log-Daten**: Alle Logs werden mit anderen Observability-Daten wie Traces und Metriken in einer zentralen Ansicht kombiniert.
 - **Einblicke und Fehlersuche**: Die integrierte Analyse macht es leicht, spezifische Fehler oder ungewöhnliche Verhaltensweisen in Logs aufzuspüren.
 
