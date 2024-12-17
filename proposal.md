@@ -1,7 +1,7 @@
 # Proposal - Explore Dynatrace to observe your application 
 
 ## Ziel: 
-In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden. Die Anwendung soll in einem Kubernetes Cluster aufgesetzt sein. Unser Hauptziel ist es, mithilfe spezifischer Dynatrace-Funktionen wie Kubernetes Monitoring, Log Monitoring und Application Security das Verhalten des Microservices zu analysieren. Damit möchten wir Ressourcenauslastung, Leistungsengpässe und Fehlerquellen in der Anwendung identifizieren.
+In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden. Die Anwendung soll in einem Kubernetes Cluster aufgesetzt sein. Unser Hauptziel ist es, mithilfe spezifischer Dynatrace-Funktionen wie Kubernetes Monitoring, Log Monitoring und Application Security das Verhalten des Microservices zu analysieren. Damit möchten wir Ressourcenauslastung, Leistungsengpässe, Fehlerquellen und Risiken in der Anwendung identifizieren.
 
 ## Was existiert bereits? 
 - Dynatrace Testversion wird genutzt, um die Überwachung durchzuführen 
