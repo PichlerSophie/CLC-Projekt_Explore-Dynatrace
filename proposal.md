@@ -1,5 +1,8 @@
 # Proposal - Explore Dynatrace to observe your application 
 
+## Projektteam
+Gabath Elisabeth, Huber Samantha, Pichler Sophie
+
 ## Ziel: 
 In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden. Die Anwendung soll in einem Kubernetes Cluster aufgesetzt sein. Unser Hauptziel ist es, mithilfe spezifischer Dynatrace-Funktionen wie Kubernetes Monitoring, Log Monitoring und Application Security das Verhalten des Microservices zu analysieren. Damit möchten wir Ressourcenauslastung, Leistungsengpässe, Fehlerquellen und Risiken in der Anwendung identifizieren.
 
