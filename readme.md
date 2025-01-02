@@ -16,18 +16,17 @@
 
 ---
 
-## Einrichten von Kubernetes-Cluster und Deployment
+## Einrichten von Kubernetes-Cluster und Deployment - Überarbeiten!!
 
 ### Schritte:
 
-1. **Erstellen eines neuen Projekts in der Google Cloud**
-   - Projektname: `clc3-project-g-h-p`
-
-2. Clone Git Repository in gewünschten Ordner
+1. Clone Git Repository in gewünschten Ordner
    ```bash
    git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
    cd microservices-demo/
    ```
+2. **Erstellen eines neuen Projekts in der Google Cloud**
+   - Projektname: `clc3-project-g-h-p`
 
 4. **Hinzufügen aller Gruppenmitglieder zum Team**
    - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
@@ -47,8 +46,14 @@
        --project=clc3-project-g-h-p \
        --region=us-central1
    ```
+7. **Zum CLuster verbinden**
+   ```bash
+   gcloud container clusters get-credentials online-boutique \
+       --region us-central1 \
+       --project clc3-project-g-h-p
+   ```
 
-7. **Bereitstellen der Demo-Anwendung**
+8. **Bereitstellen der Demo-Anwendung**
    ```bash
    kubectl apply -f ./release/kubernetes-manifests.yaml
    ```
@@ -57,15 +62,8 @@
    kubectl get pods
    ```
 
-8. **Projekt im Browser öffnen**
+9. **Projekt im Browser öffnen**
    - URL: [http://35.225.80.212](http://35.225.80.212)
-
-9. **Zum CLuster verbinden**
-   ```bash
-   gcloud container clusters get-credentials online-boutique \
-       --region us-central1 \
-       --project clc3-project-g-h-p
-   ```
 
 ---
 
@@ -80,6 +78,7 @@
    - [Helm Releases on GitHub](https://github.com/helm/helm/releases)
 
 3. **Suche nach Kubernetes Monitoring**
+   - In der Dynatrace Übersicht muss nach Kubernetes Monitoring gesucht werden
 
 4. **Folge dem Guide zum Aufsetzen des Monitorings**
    - Siehe dazu [Quickstart Guide](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/quickstart).
