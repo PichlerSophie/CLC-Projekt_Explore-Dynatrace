@@ -69,7 +69,7 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    ```
 
 9. **Projekt im Browser öffnen**
-   - URL: [http://35.225.80.212](http://35.225.80.212)
+   - URL: [http://35.225.80.212](http://34.57.8.76)
 
 ---
 
