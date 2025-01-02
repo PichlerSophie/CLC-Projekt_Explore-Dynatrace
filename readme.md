@@ -101,7 +101,5 @@
 ### Log Monitoring
 ### Application Security
 ---
+## Lessons Learned
 
-# Proposal:
-
-[Written Proposal](proposal.md)
