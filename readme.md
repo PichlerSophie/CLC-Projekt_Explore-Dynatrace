@@ -24,20 +24,24 @@
    - Projektname: `clc3-project-g-h-p`
 
 2. **Hinzufügen aller Gruppenmitglieder zum Team**
-   - Weisen Sie die Rolle `Administrator` für Kubernetes Engine Cluster zu.
+   - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
+   - Wechsel zu "IAM und Verwaltung"
+   - Konto auswählen und "Weitere Rolle hinzufügen" klicken
+   - Zuweisung der Rolle `Administrator für Kubernetes Engine Cluster`
+   - Wiederholung der letzten beiden Schritte für alle Konten der Teammitglieder
 
-3. **Aktivieren der GKE API**
+4. **Aktivieren der GKE API**
    ```bash
    gcloud services enable container.googleapis.com --project=clc3-project-g-h-p
 
-4. **Erstellen eines neuen Kubernetes Cluster**
+5. **Erstellen eines neuen Kubernetes Cluster**
    ```bash
    gcloud container clusters create-auto online-boutique \
        --project=clc3-project-g-h-p \
        --region=us-central1
    ```
 
-5. **Bereitstellen der Demo-Anwendung**
+6. **Bereitstellen der Demo-Anwendung**
    ```bash
    kubectl apply -f ./release/kubernetes-manifests.yaml
    ```
@@ -46,10 +50,10 @@
    kubectl get pods
    ```
 
-6. **Projekt im Browser öffnen**
+7. **Projekt im Browser öffnen**
    - URL: [http://35.225.80.212](http://35.225.80.212)
 
-7. **Zum CLuster verbinden**
+8. **Zum CLuster verbinden**
    ```bash
    gcloud container clusters get-credentials online-boutique \
        --region us-central1 \
