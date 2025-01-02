@@ -48,8 +48,9 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    ```
 
 6. **Erstellen eines neuen Kubernetes Cluster**
-   https://console.cloud.google.com/kubernetes
-   Standard Cluster auswählen und Nodes Anzahl anpassen
+   - Gehe zu: https://console.cloud.google.com/kubernetes
+   - Erstellen klicken und "Zum Standardcluster wechseln" auswählen
+   - Nodes Anzahl anpassen
 
 7. **Zum CLuster verbinden**
    ```bash
