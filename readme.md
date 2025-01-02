@@ -79,7 +79,6 @@
 ## Microservice Architektur
 ![Systemarchitektur](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/architecture-diagram.png)
 
-## Dienste und Beschreibung
 
 | Dienst                    | Sprache     | Beschreibung                                                                                     |
 |---------------------------|-------------|-------------------------------------------------------------------------------------------------|
