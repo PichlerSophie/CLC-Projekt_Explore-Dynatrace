@@ -23,25 +23,32 @@
 1. **Erstellen eines neuen Projekts in der Google Cloud**
    - Projektname: `clc3-project-g-h-p`
 
-2. **Hinzufügen aller Gruppenmitglieder zum Team**
+2. Clone Git Repository in gewünschten Ordner
+   ```bash
+   git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
+   cd microservices-demo/
+   ```
+
+4. **Hinzufügen aller Gruppenmitglieder zum Team**
    - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
    - Wechsel zu "IAM und Verwaltung"
    - Konto auswählen und "Weitere Rolle hinzufügen" klicken
    - Zuweisung der Rolle `Administrator für Kubernetes Engine Cluster`
    - Wiederholung der letzten beiden Schritte für alle Konten der Teammitglieder
 
-4. **Aktivieren der GKE API**
+5. **Aktivieren der GKE API**
    ```bash
    gcloud services enable container.googleapis.com --project=clc3-project-g-h-p
+   ```
 
-5. **Erstellen eines neuen Kubernetes Cluster**
+6. **Erstellen eines neuen Kubernetes Cluster**
    ```bash
    gcloud container clusters create-auto online-boutique \
        --project=clc3-project-g-h-p \
        --region=us-central1
    ```
 
-6. **Bereitstellen der Demo-Anwendung**
+7. **Bereitstellen der Demo-Anwendung**
    ```bash
    kubectl apply -f ./release/kubernetes-manifests.yaml
    ```
@@ -50,10 +57,10 @@
    kubectl get pods
    ```
 
-7. **Projekt im Browser öffnen**
+8. **Projekt im Browser öffnen**
    - URL: [http://35.225.80.212](http://35.225.80.212)
 
-8. **Zum CLuster verbinden**
+9. **Zum CLuster verbinden**
    ```bash
    gcloud container clusters get-credentials online-boutique \
        --region us-central1 \
