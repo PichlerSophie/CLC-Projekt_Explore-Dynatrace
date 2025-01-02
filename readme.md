@@ -48,11 +48,9 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    ```
 
 6. **Erstellen eines neuen Kubernetes Cluster**
-   ```bash
-   gcloud container clusters create-auto online-boutique \
-       --project=clc3-project-g-h-p \
-       --region=us-central1
-   ```
+   https://console.cloud.google.com/kubernetes
+   Standard Cluster auswählen und Nodes Anzahl anpassen
+
 7. **Zum CLuster verbinden**
    ```bash
    gcloud container clusters get-credentials online-boutique \
