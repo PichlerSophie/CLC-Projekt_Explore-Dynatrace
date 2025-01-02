@@ -21,10 +21,10 @@
 
 ### Schritte:
 
-1. **Erstellen eines neuen Projekts in Google Cloud**
+1. **Erstellen eines neuen Projekts in der Google Cloud**
    - Projektname: `clc3-project-g-h-p`
 
-2. **Hinzufügen alle Gruppenmitglieder zum Team**
+2. **Hinzufügen aller Gruppenmitglieder zum Team**
    - Weisen Sie die Rolle `Administrator` für Kubernetes Engine Cluster zu.
 
 3. **Aktivieren der GKE API**
@@ -63,21 +63,21 @@
 
 ### Schritte:
 
-1. ***Starten einer Dynatrace Testversion**
+1. **Starten einer Dynatrace Testversion**
 
 2. **Helm installieren**
-   - Download Helm and add it to your path variable.
+   - Download Helm und füge es zu den Pfadvariablen hinzu
    - [Helm Releases on GitHub](https://github.com/helm/helm/releases)
 
 3. **Suche nach Kubernetes Monitoring**
 
 4. **Folge dem Guide zum Aufsetzen des Monitorings**
-   - Refer to the [Quickstart Guide](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/quickstart).
+   - Siehe dazu [Quickstart Guide](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/quickstart).
 
 
 ---
 ## Microservice Architektur
-![Systemarchitektur](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/ArchitekturDiagramm.png)
+![Systemarchitektur](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/architecture-diagram.png)
 
 ## Dienste und Beschreibung
 
