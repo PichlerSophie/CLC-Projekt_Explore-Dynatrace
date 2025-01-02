@@ -12,7 +12,8 @@
 
 ### Application Security
 
-(To be filled with specific application security instructions.)
+[Dynatrace Application Security Overview](https://www.dynatrace.com/platform/application-security/)
+[Dynatrace Application Security Documentation](https://docs.dynatrace.com/docs/secure/application-security)
 
 ---
 
