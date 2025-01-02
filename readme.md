@@ -94,7 +94,7 @@
 | **Lastgenerator**         | Python/Locust | Sendet kontinuierlich Anfragen und simuliert realistische Benutzer-Einkaufsflüsse an das Frontend. |
 
 ---
-## Dynatrace Features Step by Step
+## Dynatrace Features Step by Step Tutorial
 ### Kubernetes Monitoring
 ### Log Monitoring
 ### Application Security
