@@ -1,5 +1,4 @@
 # Kubernetes Monitoring und Deployment Guide
-
 ## Research Summary
 
 ### Kubernetes Monitoring
