@@ -19,6 +19,7 @@
 ## Einrichten von Kubernetes-Cluster und Deployment - Überarbeiten!!
 
 ### Schritte:
+Voraussetzung: Google CLoud SDK muss installiert sein
 
 1. Clone Git Repository in gewünschten Ordner
    ```bash
@@ -28,12 +29,18 @@
 2. **Erstellen eines neuen Projekts in der Google Cloud**
    - Projektname: `clc3-project-g-h-p`
 
-4. **Hinzufügen aller Gruppenmitglieder zum Team**
+3. **Hinzufügen aller Gruppenmitglieder zum Team**
    - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
    - Wechsel zu "IAM und Verwaltung"
    - Konto auswählen und "Weitere Rolle hinzufügen" klicken
    - Zuweisung der Rolle `Administrator für Kubernetes Engine Cluster`
    - Wiederholung der letzten beiden Schritte für alle Konten der Teammitglieder
+
+4. GCloud Login
+   - Im Terminal muss folgendes Command ausgeführt werden und alle Schritte befolgt werden
+    ```bash
+    gcloud auth login
+    ```
 
 5. **Aktivieren der GKE API**
    ```bash
