@@ -78,7 +78,14 @@
 5. **Follow the Screenshots Provided** (Attach screenshots here if applicable).
 
 ---
+## Microservice Architektur
 
+---
+## Dynatrace Features Step for Step
+### Kubernetes Monitoring
+### Log Monitoring
+### Application Security
+---
 
 # Proposal:
 
