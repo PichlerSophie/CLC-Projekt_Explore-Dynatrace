@@ -121,6 +121,40 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 ### Kubernetes Monitoring
 ### Log Monitoring
 ### Application Security
+#### Einstellungen
+Um die Application Security zu verwenden, müssen zuvor einige Einstellungen in Dynatrace getätigt werden. 
+Dafür navigiert man zu den *Settings Classic*. Dort wählt man den Unterpunkt für Application Security aus. 
+Hier muss man dann bei den *Vulnerability Analytics: General settings* noch die Punkte aktivieren, die man überwachen möchte. 
+Einmal für die Third-party Vulnerability Analytics:
+
+![applicationsecurity](https://github.com/user-attachments/assets/0191b85d-92be-453e-9a32-6f407f1332ab)
+
+Man kann auch noch alle nötigen Technologien auswählen, die hierbei überwacht werden sollen. 
+Im zweiten Tab *Code-Level Vulnerability Analytics* kann man die Analyse für die Überwachung auf Codeebene einschalten. 
+
+![grafik](https://github.com/user-attachments/assets/7bec5389-4517-4660-b666-a0ac4b9ad41e)
+
+Hier können Java und .Net überwacht werden. 
+
+Um das Monitoring zur Laufzeit zu aktivieren, muss unter *Application Protection* zu den General Settings navigiert werden. Hier aktiviert man die Runtime Application Protection. Dynatrace kontrolliert hierbei hereinkommende Angriffe auf die Applikation und kann diese Monitoren oder blockieren. Es besteht auch die Möglichkeit Angriffe zu ignorieren. 
+
+![grafik](https://github.com/user-attachments/assets/154f7cdb-772e-453b-a761-17393d39b434)
+
+Möchte man die nachfolgenden Punkte überwachen, müssen die oben erwähnten 3 Einstellungen zuvor aktiviert werden. 
+
+#### Dashboards
+
+Es können Dashboards erstellt werden, um die Application Security zu überwachen. Dazu kann man für die App Third-party vulnerabilities *Create report* drücken, um für diese mit einem Template ein Dashboard erstellen zu können.
+![grafik](https://github.com/user-attachments/assets/27d63460-baaa-4518-becd-4b21a634f023)
+![grafik](https://github.com/user-attachments/assets/8282feac-f687-4ff1-af37-ebe5af97df12)
+
+Diese kann man dann über die Dashboards aufrufen und analysieren. 
+
+#### Security Overview, Third-party vulnerabilities und Code-level vulnerabilities
+Über die Apps kann man unter der Sektion Application Security die verschiedenen Apps auswählen, die für dieses Überwachen zuständig sind. 
+
+Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vulnerabilities und Attacks App aufrufen, um genauere Informationen zu bekommen und genauer zu analysieren, welche Risiken auftreten. 
+
 ---
 ## Lessons Learned
 
