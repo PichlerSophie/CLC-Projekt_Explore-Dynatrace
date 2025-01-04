@@ -47,9 +47,9 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    - Nodes Anzahl anpassen, Name vergeben, Region auswählen
    - "Erstellen" klicken  
    **Autopilot Cluster**  
-   - - Gehe zu: https://console.cloud.google.com/kubernetes
-     - Cluster erstellen klicken
-     - Name veregebn und "Erstellen" klicken
+   - Gehe zu: https://console.cloud.google.com/kubernetes
+   - Cluster erstellen klicken
+   - Name veregebn und "Erstellen" klicken
 
 7. **Zum Cluster verbinden**
    ```bash
