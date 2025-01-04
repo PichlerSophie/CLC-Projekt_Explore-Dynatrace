@@ -28,31 +28,30 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    ```
 2. **Erstellen eines neuen Projekts in der Google Cloud**
    - Projektname: `clc3-project-g-h-p`
-
-3. **Hinzufügen aller Gruppenmitglieder zum Team**
-   - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
-   - Wechsel zu "IAM und Verwaltung"
-   - Konto auswählen und "Weitere Rolle hinzufügen" klicken
-   - Zuweisung der Rolle `Administrator für Kubernetes Engine Cluster`
-   - Wiederholung der letzten beiden Schritte für alle Konten der Teammitglieder
-
-4. GCloud Login
+  
+3. GCloud Login
    - Im Terminal muss folgendes Command ausgeführt werden und alle Schritte befolgt werden
     ```bash
     gcloud auth login
     ```
 
-5. **Aktivieren der GKE API**
+4. **Aktivieren der GKE API**
    ```bash
    gcloud services enable container.googleapis.com --project=clc3-project-g-h-p
    ```
 
-6. **Erstellen eines neuen Kubernetes Cluster**
+5. **Erstellen eines neuen Kubernetes Cluster**
+   **Standard Cluster**
    - Gehe zu: https://console.cloud.google.com/kubernetes
    - Erstellen klicken und "Zum Standardcluster wechseln" auswählen
-   - Nodes Anzahl anpassen
+   - Nodes Anzahl anpassen, Name vergeben, Region auswählen
+   - "Erstellen" klicken
+   **Autopilot Cluster**
+   - - Gehe zu: https://console.cloud.google.com/kubernetes
+     - Cluster erstellen klicken
+     - Name veregebn und "Erstellen" klicken
 
-7. **Zum CLuster verbinden**
+7. **Zum Cluster verbinden**
    ```bash
    gcloud container clusters get-credentials online-boutique \
        --region us-central1 \
@@ -70,6 +69,13 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 
 9. **Projekt im Browser öffnen**
    - URL: [http://35.225.80.212](http://34.57.8.76)
+
+10. **Hinzufügen aller Gruppenmitglieder zum Team**
+   - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
+   - Wechsel zu "IAM und Verwaltung"
+   - Konto auswählen und "Weitere Rolle hinzufügen" klicken
+   - Zuweisung der Rolle `Administrator für Kubernetes Engine Cluster`
+   - Wiederholung der letzten beiden Schritte für alle Konten der Teammitglieder
 
 ---
 
