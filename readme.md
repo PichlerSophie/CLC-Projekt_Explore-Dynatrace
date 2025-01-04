@@ -40,13 +40,13 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    gcloud services enable container.googleapis.com --project=clc3-project-g-h-p
    ```
 
-5. **Erstellen eines neuen Kubernetes Cluster**
-   **Standard Cluster**
+5. **Erstellen eines neuen Kubernetes Cluster**  
+   **Standard Cluster**  
    - Gehe zu: https://console.cloud.google.com/kubernetes
    - Erstellen klicken und "Zum Standardcluster wechseln" auswählen
    - Nodes Anzahl anpassen, Name vergeben, Region auswählen
    - "Erstellen" klicken
-   **Autopilot Cluster**
+   **Autopilot Cluster**  
    - - Gehe zu: https://console.cloud.google.com/kubernetes
      - Cluster erstellen klicken
      - Name veregebn und "Erstellen" klicken
