@@ -98,7 +98,7 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 
 ---
 ## Microservice Architektur
-![Systemarchitektur](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/architecture-diagram.png)
+![Systemarchitektur](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/architecture-diagram.png)
 
 
 | Dienst                    | Sprache     | Beschreibung                                                                                     |
