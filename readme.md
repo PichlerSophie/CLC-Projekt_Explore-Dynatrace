@@ -1,5 +1,5 @@
 # Kubernetes Monitoring und Deployment Guide
-Wir haben nach längerem Überlegen und Probieren die Dynatrace Features für den Standard Kubernetes Cluster getestet und für den Autoplot Kubernetes Cluster. Erklärung folgt...
+Wir haben nach längerem Überlegen und Probieren die Dynatrace Features für den Standard Kubernetes Cluster getestet und für den Autopilot Kubernetes Cluster. Darum wird bei der Erklärung zum Aufsetzen des Kubernetes Clusters auf beide Clusterarten eingegangen.
 ## Research Summary
 
 ### Kubernetes Monitoring
