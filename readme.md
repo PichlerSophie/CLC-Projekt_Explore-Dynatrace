@@ -120,6 +120,38 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 ## Dynatrace Features Step by Step Tutorial
 ### Kubernetes Monitoring
 ### Log Monitoring
+
+Mithilfe von Dynatrace können die Logs des Kubernetes-Clusters effizient analysiert und durchsucht werden. So funktioniert das Logging:
+
+1. **Dynatrace OneAgent installieren:**
+   Zuerst muss man den Dynatrace OneAgent auf dem Cluster installieren. Das geht ganz einfach, wenn man den Schritten aus der [Dynatrace-Dokumentation für Log Monitoring](https://www.dynatrace.com/de/platform/log-monitoring/) folgt. Auf der Dynatrace Webanwendung wird aber auch dem User automatisch die Aufsetzung von einer Log-Ingestion-Anwendung vorgeschlagen, sobald man im Suchfeld nach "Logs" sucht, und auf die Ansicht der Logs-App wechselt.
+
+   INSERT FOTO VON SETUP LOG INGESTION
+
+3. **Logs konfigurieren:**
+   In Dynatrace geht man in die Einstellungen und wählt "Set up log ingest". Hier kann man die Quellen der Logs festlegen, wie z. B. Container-Logs, und die Log-Ingestion aktivieren.
+
+   INSERT FOTO VON LOG INGESTION EINSTELLUNGEN
+
+5. **Logs durchsuchen und analysieren:**
+   In der Logs-App kann man die gesammelten Logs durchsuchen und analysieren. Zum Beispiel kann man nach Status wie INFO, WARN oder ERROR filtern oder nach bestimmten Mustern oder Zeitfenstern suchen. Wenn man mehr Kontrolle braucht, kann man auch die Dynatrace Query Language (DQL) verwenden.
+
+   Ein Beispiel für eine DQL-Query:
+   ```sql
+   fetch logs
+   | filter dt.entity.kubernetes_service == "KUBERNETES_SERVICE-F9B26EEE73A1B38D"
+   | sort timestamp desc
+   ```
+
+6. **Visualisierung:**
+   Es gibt auch die Möglichkeit, Dashboards zu erstellen, die die Log-Daten zusammen mit anderen Observability-Daten wie Metriken und Traces anzeigen. So hat man alles im Blick.
+
+INSERT FOTO VON LOG-QUERY ANSICHT
+![Dynatrace Logs App Screenshot](https://github.com/user-attachments/assets/0191b85d-92be-453e-9a32-6f407f1332ab)
+
+Mit diesen Schritten kann man die Logs des Kubernetes-Clusters effizient analysieren und schnell Probleme identifizieren.
+
+
 ### Application Security
 #### Einstellungen
 Um die Application Security zu verwenden, müssen zuvor einige Einstellungen in Dynatrace getätigt werden. 
