@@ -126,15 +126,17 @@ Mithilfe von Dynatrace können die Logs des Kubernetes-Clusters effizient analys
 1. **Dynatrace OneAgent installieren:**
    Zuerst muss man den Dynatrace OneAgent auf dem Cluster installieren. Das geht ganz einfach, wenn man den Schritten aus der [Dynatrace-Dokumentation für Log Monitoring](https://www.dynatrace.com/de/platform/log-monitoring/) folgt. Auf der Dynatrace Webanwendung wird aber auch dem User automatisch die Aufsetzung von einer Log-Ingestion-Anwendung vorgeschlagen, sobald man im Suchfeld nach "Logs" sucht, und auf die Ansicht der Logs-App wechselt.
 
-   INSERT FOTO VON SETUP LOG INGESTION
+![OneagentSetup](/img/oneagentSetup.png)
 
 3. **Logs konfigurieren:**
    In Dynatrace geht man in die Einstellungen und wählt "Set up log ingest". Hier kann man die Quellen der Logs festlegen, wie z. B. Container-Logs, und die Log-Ingestion aktivieren.
    
-![logIngestionSetup](/img/logIngestionSetup.png)
+![LogIngestionSetup](/img/logIngestionSetup.png)
 
 5. **Logs durchsuchen und analysieren:**
    In der Logs-App kann man die gesammelten Logs durchsuchen und analysieren. Zum Beispiel kann man nach Status wie INFO, WARN oder ERROR filtern oder nach bestimmten Mustern oder Zeitfenstern suchen. Wenn man mehr Kontrolle braucht, kann man auch die Dynatrace Query Language (DQL) verwenden.
+
+![LogsAppOverview](/img/logsappOverview.png)
 
    Ein Beispiel für eine DQL-Query:
    ```sql
@@ -143,11 +145,12 @@ Mithilfe von Dynatrace können die Logs des Kubernetes-Clusters effizient analys
    | sort timestamp desc
    ```
 
+So sieht das Ergebnis dieser Query aus:
+
+![QueryResult](/img/queryResult.png)
+
 6. **Visualisierung:**
    Es gibt auch die Möglichkeit, Dashboards zu erstellen, die die Log-Daten zusammen mit anderen Observability-Daten wie Metriken und Traces anzeigen. So hat man alles im Blick.
-
-INSERT FOTO VON LOG-QUERY ANSICHT
-![Dynatrace Logs App Screenshot](https://github.com/user-attachments/assets/0191b85d-92be-453e-9a32-6f407f1332ab)
 
 Mit diesen Schritten kann man die Logs des Kubernetes-Clusters effizient analysieren und schnell Probleme identifizieren.
 
