@@ -120,9 +120,11 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 ## Dynatrace Features Step by Step Tutorial
 ### Kubernetes Monitoring
 Wenn man auf der Dynatrace Startseite auf *Apps* klickt kann man alle möglichen Apps auswählen unter anderem auch *Kubernetes*, um den Cluster zu überwachen. Zuerst muss das Kubernetes Monitoring aber wie oben beschrieben aufgesetzt werden. Man gelangt nach dem Klick auf *Kubernetes* zu einer Übersicht, in der man alle möglichen Ressourcen genauer anschauen kann darunter fallen der Cluster, Nodes, Namespaces, Pods, Services und Container.
+![HowToKubernetes](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/HowToKubernetes.png)
 
 #### Cluster Analyse
 Wenn man nun auf Cluster klickt, kann man den gewünschten Cluster auswählen. Dort wird dann eine Reihe an Information angezeigt, um die Auslastung des Cluster näher betrachten zu können. Es wird die aktuelle CPU Auslastung angezeigt, aber auch wie viel CPU Requests im gesamten Cluster angefordert werden und welches CPU Limit im gesamten Cluster definiert ist.  Dasselbe sieht man auch für die Arbeitsspeicherauslastung. Außerdem kann man sehen wie viele Pods aktuell tatsächlich laufen und wie viele verfügbar wären. Außerdem hat man eine schnelle Übersicht ob alle Nodes bereit sind, ob es Nodes mit Warnungen gibt und ob es Nodes mit Problemen gibt. Auch über die Workloads hat man auf einem Blick eine schnelle Übersicht der wichtigsten Informationen. Man sieht ob es Workloads gibt mit Container die gerade neu starten, ob es Workloads gibt mit fehlgeschlagenen Pods etc.
+![ClusterÜbersicht](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/ClusterUebersicht.png)
 
 Um das Ganze näher betrachten zu können kann man sich die einzelnen Auslastungen auch für Nodes, Namespaces, Workloads, Services, Pods und Container ansehen. Links im Seitenmenü kann man die einzelnen Ressourcen auswählen. Das Prinzip ist dasselbe wie bei dem Cluster, nur dass die Auslastung genau für die ausgewählte Ressource angezeigt wird. 
 
@@ -143,13 +145,14 @@ Wenn man Namespaces aus der Liste auswählt bekommt man eine kompakte Übersicht
 Wenn man Workloads aus der Liste auswählt bekommt man alle Workloads in einer Übersicht angezeigt. Auf dieser ersten Übersicht kann man die Podsanzahl und das Alter ablesen. Wenn man eine Workload genauer betrachten möchte muss man auch hier lediglich auf die gewünschte Workload klicken und man bekommt wieder einen Auswertung der physischen Ressourcen (CPU, Memory). Auch den dazu gehörigen Pod kann man durch einfaches klicken wieder ansehen.
 
 Wenn Workloads fehlerhaft sind können auch Probleme angezeigt werden, indem man auf Problems klickt.
+![Problem](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/Problem.png)
 
 #### Services Analyse
 Wenn man nun Services aus der Liste auswählt, bekommt man ebenfalls wieder eine Liste mit allen laufenden Services. Hier kann man den zugehörigen Namespace ablesen und die Anzahl der Pods. Auch hier kann man wieder jeden einzelnen Service genauer unter die Lupe nehmen. Dort kann man sich dann den zugehörigen Pod ausgeben lassen. Außerdem wird der zugehörige Port aufgelistet.
 
 #### Dashboards
 Zu einer schnelleren Übersicht können auch Dashboards angesehen werden. Dafür muss nur in der linken Menüleiste auf Dashboards geklickt werden. 
-
+![HowToDashboard](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/HowToDashbaord.png)
 Das erste Dashboard ist das Kubernetes Cluster Dashboard. Darin kann man alle Infos schnell auf einen Blick erkennen. Auch hier CPU Auslastung etc. Man kann das Ganze in einem Zeitraum einschränken
 
 Hier können dann weitere Dashboards ausgewählt werden wie Namespaces – Pods, oder Nodes -Pods. Dadurch bekommt man eine schnelle Übersicht über die wichtigsten Informationen von Nodes/Pods und Namespaces. Es gibt auch die Möglichkeit eigene Dashboards zu entwerfen.
