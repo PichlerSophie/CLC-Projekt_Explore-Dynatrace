@@ -144,6 +144,7 @@ Mithilfe von Dynatrace können die Logs des Kubernetes-Clusters effizient analys
    | filter dt.entity.kubernetes_service == "KUBERNETES_SERVICE-F9B26EEE73A1B38D"
    | sort timestamp desc
    ```
+In diesem Beispiel werden die Logs des Kubernetes-Services mit der ID F9B26EEE73A1B38D abgefragt. Dabei handelt es sich um den cartservice unseres Microservice, in welchem Informationen über den Einkaufswagen gesammelt werden (zum Beispiel welches Produkt zu welcher Zeit im Einkaufswagen gelandet ist).
 
 So sieht das Ergebnis dieser Query aus:
 
