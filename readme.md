@@ -153,7 +153,7 @@ Wenn man nun Services aus der Liste auswählt, bekommt man ebenfalls wieder eine
 
 #### Dashboards
 Zu einer schnelleren Übersicht können auch Dashboards angesehen werden. Dafür muss nur in der linken Menüleiste auf Dashboards geklickt werden. 
-![HowToDashboard](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/HowToDashbaord.png)
+![HowToDashboard](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/HowToDashboard.png)
 Das erste Dashboard ist das Kubernetes Cluster Dashboard. Darin kann man alle Infos schnell auf einen Blick erkennen. Auch hier CPU Auslastung etc. Man kann das Ganze in einem Zeitraum einschränken
 
 Hier können dann weitere Dashboards ausgewählt werden wie Namespaces – Pods, oder Nodes -Pods. Dadurch bekommt man eine schnelle Übersicht über die wichtigsten Informationen von Nodes/Pods und Namespaces. Es gibt auch die Möglichkeit eigene Dashboards zu entwerfen.
