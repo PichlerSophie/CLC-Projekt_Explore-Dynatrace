@@ -119,7 +119,8 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 ---
 ## Dynatrace Features Step by Step Tutorial
 ### Kubernetes Monitoring
-Wenn man auf der Dynatrace Startseite auf *Apps* klickt kann man alle möglichen Apps auswählen unter anderem auch *Kubernetes*, um den Cluster zu überwachen. Zuerst muss das Kubernetes Monitoring aber wie oben beschrieben aufgesetzt werden. Man gelangt nach dem Klick auf *Kubernetes* zu einer Übersicht, in der man alle möglichen Ressourcen genauer anschauen kann darunter fallen der Cluster, Nodes, Namespaces, Pods, Services und Container.
+Wenn man auf der Dynatrace Startseite auf *Apps* klickt kann man alle möglichen Apps auswählen unter anderem auch *Kubernetes*, um den Cluster zu überwachen. Zuerst muss das Kubernetes Monitoring aber wie oben beschrieben aufgesetzt werden. Man gelangt nach dem Klick auf *Kubernetes* zu einer Übersicht, in der man alle möglichen Ressourcen genauer anschauen kann darunter fallen der Cluster, Nodes, Namespaces, Pods, Services und Container.  
+
 ![HowToKubernetes](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/HowToKubernetes.png)
 
 #### Cluster Analyse
