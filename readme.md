@@ -145,7 +145,7 @@ Wenn man Namespaces aus der Liste auswählt bekommt man eine kompakte Übersicht
 Wenn man Workloads aus der Liste auswählt bekommt man alle Workloads in einer Übersicht angezeigt. Auf dieser ersten Übersicht kann man die Podsanzahl und das Alter ablesen. Wenn man eine Workload genauer betrachten möchte muss man auch hier lediglich auf die gewünschte Workload klicken und man bekommt wieder einen Auswertung der physischen Ressourcen (CPU, Memory). Auch den dazu gehörigen Pod kann man durch einfaches klicken wieder ansehen.
 
 Wenn Workloads fehlerhaft sind können auch Probleme angezeigt werden, indem man auf Problems klickt.
-![Problem](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/Problem.png)
+![Problem](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/problem.png)
 
 #### Services Analyse
 Wenn man nun Services aus der Liste auswählt, bekommt man ebenfalls wieder eine Liste mit allen laufenden Services. Hier kann man den zugehörigen Namespace ablesen und die Anzahl der Pods. Auch hier kann man wieder jeden einzelnen Service genauer unter die Lupe nehmen. Dort kann man sich dann den zugehörigen Pod ausgeben lassen. Außerdem wird der zugehörige Port aufgelistet.
