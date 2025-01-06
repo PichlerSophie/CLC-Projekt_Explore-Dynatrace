@@ -130,25 +130,25 @@ Wenn man nun auf Cluster klickt, kann man den gewünschten Cluster auswählen. D
 Um das Ganze näher betrachten zu können kann man sich die einzelnen Auslastungen auch für Nodes, Namespaces, Workloads, Services, Pods und Container ansehen. Links im Seitenmenü kann man die einzelnen Ressourcen auswählen. Das Prinzip ist dasselbe wie bei dem Cluster, nur dass die Auslastung genau für die ausgewählte Ressource angezeigt wird. 
 
 #### Nodes Analyse
-So kann man sich wenn man auf einen Node klickt ebenfalls die CPU und Arbeistsspeicherauslastung anzeigen lassen. Es ist genau aufgelistet wie viele Pods sich in dem Node befinden und wie viele Container darin laufen. Auch Probleme und Vulnerabilities würden angezeigt werden wenn es welche gibt. Die laufenden Pods in dem ausgewählten Nodes können über eine Liste eingesehen werden. In dem Standard Cluster Monitoring kann man auch noch Diagramme im Reiter Logs und Events sehen (siehe nachfolgender Screenshot)
-![LogsNodes](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/LogsNodes.png)
+So kann man sich wenn man auf einen Node klickt ebenfalls die CPU und Arbeistsspeicherauslastung anzeigen lassen. Es ist genau aufgelistet wie viele Pods sich in dem Node befinden und wie viele Container darin laufen. Auch Probleme und Vulnerabilities würden angezeigt werden wenn es welche gibt. Die laufenden Pods in dem ausgewählten Nodes können über eine Liste eingesehen werden. Die Übersicht über CPU AUslastung etc.s sieht ähnlcih aus wie auf der Clusterübersicht. In dem Standard Cluster Monitoring kann man auch noch Diagramme im Reiter Logs und Events sehen (siehe nachfolgender Screenshot)
+![LogsNodes](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/LogsEventsStandard.png)
 
 #### Pods Analyse
 Auch wenn man Pods aus der Liste auswählt bekommt man ähnliche Auswertungen wie bei Nodes. Man bekommt wieder eine Liste der Pods und sieht dort auch gleich wie viele Container darin jeweils laufen und den Status des Pods. Die Übersicht über CPU Auslastung und Speicher Auslastung ist hier dieselbe wie bei den bereits vorgestellten. Zusätzlich gibt es eine Pods Analyse darin sieht man den Status und wie viele Neustarts die Container hatten. 
 ![PodAnalyse](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/PodAnalysis.png)
-![PodsAnalyse2](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/PodsAnalyse2.png)
+![PodsAnalyse2](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/Pods.png)
 
 #### Container Analyse
 Auch die jeweiligen Container kann man genauer unter die Lupe nehmen hier kann man aber lediglich die CPU Auslastung und die Speicherauslastung sehen. Natürlich allgemeine Infos wie zugehöriger Namespace, Pod, Node und Workload ist ebenfalls ersichtlich.
 
 #### Namespaces Analyse
-Wenn man Namespaces aus der Liste auswählt bekommt man eine kompakte Übersichtsliste aller laufenden Namespaces, dort kann man auch sehen wie lange diese schon aktiv sind und wie viele Workloads, Pods und Services sich in dem Namespace befinden. Wenn man auch hier wieder einen auswählt bekommt man eine ähnliche Übersicht mit CPU Auslastung und Speicher Auslastung, laufenden Pods und Workloads. Die Workloads eines spezifischen  Namespaces können wieder über eine Liste angezeigt werden.   
+Wenn man Namespaces aus der Liste auswählt bekommt man eine kompakte Übersichtsliste aller laufenden Namespaces, dort kann man auch sehen wie lange diese schon aktiv sind und wie viele Workloads, Pods und Services sich in dem Namespace befinden. Wenn man auch hier wieder einen auswählt bekommt man eine ähnliche Übersicht mit CPU Auslastung und Speicher Auslastung, laufenden Pods und Workloads wie im Beispielbild vom Cluster allgemein. Die Workloads eines spezifischen  Namespaces können wieder über eine Liste angezeigt werden.   
 ![Namespaces](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/Namespaces.png)
 
 
 #### Workloads Analyse
 Wenn man Workloads aus der Liste auswählt bekommt man alle Workloads in einer Übersicht angezeigt. Auf dieser ersten Übersicht kann man die Podsanzahl und das Alter ablesen. Wenn man eine Workload genauer betrachten möchte muss man auch hier lediglich auf die gewünschte Workload klicken und man bekommt wieder einen Auswertung der physischen Ressourcen (CPU, Memory). Auch den dazu gehörigen Pod kann man durch einfaches klicken wieder ansehen.  
-![Workloads](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/.png)
+![Workloads](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/Workloads.png)
 
 Wenn Workloads fehlerhaft sind können auch Probleme angezeigt werden, indem man auf Problems klickt.
 ![Problem](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/ProblemWorkload.png)
