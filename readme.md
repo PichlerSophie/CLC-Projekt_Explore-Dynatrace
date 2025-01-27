@@ -179,7 +179,7 @@ Mithilfe von Dynatrace können die Logs des Kubernetes-Clusters effizient analys
 2. **Logs konfigurieren:**
    In Dynatrace geht man in die Einstellungen und wählt "Set up log ingest". Hier kann man die Quellen der Logs festlegen, wie z. B. Container-Logs, und die Log-Ingestion aktivieren.
    
-![LogIngestionSetup](/img/logIngestionSetup.png)
+![LogIngestionSetup](/img/setuplogingest.png)
 
 3. **Logs durchsuchen und analysieren:**
    In der Logs-App kann man die gesammelten Logs durchsuchen und analysieren. Zum Beispiel kann man nach Status wie INFO, WARN oder ERROR filtern oder nach bestimmten Mustern oder Zeitfenstern suchen. Wenn man mehr Kontrolle braucht, kann man auch die Dynatrace Query Language (DQL) verwenden.
