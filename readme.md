@@ -174,7 +174,7 @@ Mithilfe von Dynatrace können die Logs des Kubernetes-Clusters effizient analys
 1. **Dynatrace OneAgent installieren:**
    Zuerst muss man den Dynatrace OneAgent auf dem Cluster installieren. Das geht ganz einfach, wenn man den Schritten aus der [Dynatrace-Dokumentation für Log Monitoring](https://www.dynatrace.com/de/platform/log-monitoring/) folgt. Auf der Dynatrace Webanwendung wird aber auch dem User automatisch die Aufsetzung von einer Log-Ingestion-Anwendung vorgeschlagen, sobald man im Suchfeld nach "Logs" sucht, und auf die Ansicht der Logs-App wechselt.
 
-![OneagentSetup](/img/oneagentSetup.png)
+![OneagentSetup](/img/oneagent.png)
 
 2. **Logs konfigurieren:**
    In Dynatrace geht man in die Einstellungen und wählt "Set up log ingest". Hier kann man die Quellen der Logs festlegen, wie z. B. Container-Logs, und die Log-Ingestion aktivieren.
