@@ -211,7 +211,7 @@ Dafür navigiert man zu den *Settings Classic*. Dort wählt man den Unterpunkt f
 Hier muss man dann bei den *Vulnerability Analytics: General settings* noch die Punkte aktivieren, die man überwachen möchte. 
 Einmal für die Third-party Vulnerability Analytics:
 
-![applicationsecurity](/img/applicationsecurityenable)
+![applicationsecurity](/img/applicationsecurityenable.png)
 
 Man kann auch noch alle nötigen Technologien auswählen, die hierbei überwacht werden sollen. 
 Im zweiten Tab *Code-Level Vulnerability Analytics* kann man die Analyse für die Überwachung auf Codeebene einschalten. 
