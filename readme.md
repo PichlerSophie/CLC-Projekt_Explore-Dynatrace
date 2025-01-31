@@ -115,6 +115,7 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 | **recommendationservice**     | Python      | Empfiehlt andere Produkte basierend auf dem Inhalt des Warenkorbs.                            |
 | **adservice**        | Java        | Stellt Textanzeigen basierend auf gegebenen Kontextwörtern bereit.                            |
 | **loadgenerator**         | Python/Locust | Sendet kontinuierlich Anfragen und simuliert realistische Benutzer-Einkaufsflüsse an das Frontend. |
+
 Quelle: https://github.com/GoogleCloudPlatform/microservices-demo
 ---
 ## Dynatrace Features Step by Step Tutorial
