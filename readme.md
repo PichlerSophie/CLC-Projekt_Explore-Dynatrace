@@ -1,6 +1,6 @@
 # Kubernetes Monitoring und Deployment Guide
 Wir haben nach längerem Überlegen und Probieren die Dynatrace Features für den Standard Kubernetes Cluster getestet und für den Autopilot Kubernetes Cluster. Darum wird bei der Erklärung zum Aufsetzen des Kubernetes Clusters auf beide Clusterarten eingegangen.
-## Research Summary
+## Research Summary - ausbauen also kurz zusammenfassen jedes Feature
 
 ### Kubernetes Monitoring
 - [Dynatrace Kubernetes Monitoring Overview](https://www.dynatrace.com/technologies/kubernetes-monitoring/)
@@ -115,7 +115,7 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 | **recommendationservice**     | Python      | Empfiehlt andere Produkte basierend auf dem Inhalt des Warenkorbs.                            |
 | **adservice**        | Java        | Stellt Textanzeigen basierend auf gegebenen Kontextwörtern bereit.                            |
 | **loadgenerator**         | Python/Locust | Sendet kontinuierlich Anfragen und simuliert realistische Benutzer-Einkaufsflüsse an das Frontend. |
-
+* Quelle einfügen von GitRepo
 ---
 ## Dynatrace Features Step by Step Tutorial
 ### Kubernetes Monitoring
@@ -241,4 +241,23 @@ Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vul
 
 ---
 ## Lessons Learned
+### Kubernetes Autopilot Einschränkungen
+- Dynatrace kann Logging in Kubernetes Autopilot nicht vollständig überwachen.
+- Für vollständige Observability ist der Standard Kubernetes Cluster besser geeignet.
+
+### Ressourcenmanagement in Kubernetes
+- Die kostenlose Google Cloud Variante bietet begrenzte Ressourcen, was bei einem großen Microservice zu Engpässen führt.
+- Feintuning von CPU- und Speicherzuweisungen war nötig, um den Cluster effizient zu betreiben.
+
+### Dynatrace Setup & Nutzung
+- Die Einrichtung von Dynatrace erforderte eine gewisse Einarbeitungszeit.
+- Sobald eingerichtet, lieferte Dynatrace wertvolle Einblicke in Performance, Logs und Sicherheit.
+
+### Dynatrace bietet starke Monitoring- und Security-Features
+- Kubernetes Monitoring und Log-Analyse waren sehr aufschlussreich.
+- Die Application Security Features waren besonders spannend und haben Spaß gemacht.
+
+### Wertvolle Einblicke in Microservice-Performance
+- Durch Dynatrace konnten Engpässe und Optimierungsmöglichkeiten identifiziert werden.
+- Die Überwachung hat geholfen, Fehlerquellen schnell zu erkennen.
 
