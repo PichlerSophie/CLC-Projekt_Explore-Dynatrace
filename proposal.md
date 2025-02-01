@@ -31,7 +31,7 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - **Automatische Überprüfung neuer kritscher Schwachstellen:** Dynatrace überprüft, dass keine neuen kritischen Schwachstellen implementiert wurden. Die Ergebnisse und das Monitoring können in einem Dashboard analysiert werden.
 
 ## Architektur Diagramm 
-![Architektur Diagramm](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/ArchitekturDiagramm.png)
+![Architektur Diagramm](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/ArchitekturDiagramm.png)
 
 ## Welche Cloud Technologien werden verwendet? 
 - Google Cloud 
@@ -39,7 +39,7 @@ In diesem Projekt soll ein Microservice mithilfe von Dynatrace überwacht werden
 - Dynatrace 
 
 ## Meilensteine 
-![Meilensteine](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/meilensteineCLC.png)
+![Meilensteine](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/img/meilensteineCLC.png)
 1) Kubernetes Cluster einrichten + Microservice darin deployen (26.12.2014) 
 2) Dynatrace Testversion beantragen + einrichten (02.01.2025)
 3) Integration von Dynatrace zum Monitoring (06.01.2025)
