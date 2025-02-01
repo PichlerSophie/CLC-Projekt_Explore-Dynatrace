@@ -49,7 +49,7 @@ Eine automatische Überprüfung neuer kritscher Schwachstellen hilft dabei die A
 
 ---
 
-## Einrichten von Kubernetes-Cluster und Deployment - Überarbeiten!!
+## Einrichten von Kubernetes-Cluster und Deployment
 
 ### Schritte:
 Voraussetzung: Google CLoud SDK muss installiert sein
@@ -79,6 +79,9 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    - Erstellen klicken und "Zum Standardcluster wechseln" auswählen
    - Nodes Anzahl anpassen, Name vergeben, Region auswählen
    - "Erstellen" klicken
+   - Da der Standard-Cluster nicht gleichzeitig die microservices-demo-Anwendung und Dynatrace stabil betreiben konnte, wurden die Ressourcen folgendermaßen erhöht:
+     1. Speicher: Persistent Disk SSD-Quota von 200GB auf insgesamt 1,3TB erhöht
+     2. CPU & Limits: CPU-Limit von 25 auf 50 erhöht
      
    **Autopilot Cluster**  
    - Gehe zu: https://console.cloud.google.com/kubernetes
@@ -103,10 +106,10 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 
 9. **Projekt im Browser öffnen**
    - Mithilfe des nachfolgendem Befehls kann die URL ausgegeben werden, worüber das Frontend des Microservices erreicht werden kann.
-```bash
-kubectl get service frontend-external
-```
-- Alternativ dazu kann die uRL auch von Dynatrace aus, aufgerufen werden.
+   ```bash
+   kubectl get service frontend-external
+   ```
+   - Alternativ dazu kann die URL auch von Dynatrace aus, aufgerufen werden.
 
 10. **Hinzufügen aller Gruppenmitglieder zum Team**
    - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
