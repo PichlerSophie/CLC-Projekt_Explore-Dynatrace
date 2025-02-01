@@ -46,7 +46,8 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    - Gehe zu: https://console.cloud.google.com/kubernetes
    - Erstellen klicken und "Zum Standardcluster wechseln" auswählen
    - Nodes Anzahl anpassen, Name vergeben, Region auswählen
-   - "Erstellen" klicken  
+   - "Erstellen" klicken
+     
    **Autopilot Cluster**  
    - Gehe zu: https://console.cloud.google.com/kubernetes
    - Cluster erstellen klicken
