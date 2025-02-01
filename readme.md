@@ -54,7 +54,7 @@ Eine automatische Überprüfung neuer kritscher Schwachstellen hilft dabei die A
 ### Schritte:
 Voraussetzung: Google CLoud SDK muss installiert sein
 
-1. Clone Git Repository in gewünschten Ordner
+1. **Clone Git Repository in gewünschten Ordner**
    ```bash
    git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
    cd microservices-demo/
@@ -62,7 +62,7 @@ Voraussetzung: Google CLoud SDK muss installiert sein
 2. **Erstellen eines neuen Projekts in der Google Cloud**
    - Projektname: `clc3-project-g-h-p`
   
-3. GCloud Login
+3. **GCloud Login**
    - Im Terminal muss folgendes Command ausgeführt werden und alle Schritte befolgt werden
     ```bash
     gcloud auth login
@@ -88,14 +88,14 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    - Cluster erstellen klicken
    - Name veregebn und "Erstellen" klicken
 
-7. **Zum Cluster verbinden**
+6. **Zum Cluster verbinden**
    ```bash
    gcloud container clusters get-credentials online-boutique \
        --region us-central1 \
        --project clc3-project-g-h-p
    ```
 
-8. **Bereitstellen der Demo-Anwendung**
+7. **Bereitstellen der Demo-Anwendung**
    ```bash
    kubectl apply -f ./release/kubernetes-manifests.yaml
    ```
@@ -104,14 +104,14 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    kubectl get pods
    ```
 
-9. **Projekt im Browser öffnen**
+8. **Projekt im Browser öffnen**
    - Mithilfe des nachfolgendem Befehls kann die URL ausgegeben werden, worüber das Frontend des Microservices erreicht werden kann.
    ```bash
    kubectl get service frontend-external
    ```
    - Alternativ dazu kann die URL auch von Dynatrace aus, aufgerufen werden.
 
-10. **Hinzufügen aller Gruppenmitglieder zum Team**
+9. **Hinzufügen aller Gruppenmitglieder zum Team**
    - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
    - Wechsel zu "IAM und Verwaltung"
    - Konto auswählen und "Weitere Rolle hinzufügen" klicken
