@@ -17,11 +17,9 @@ Dynatrace bietet eine Plattform zur Überwachung und Optimierung von Anwendungen
 - [Dynatrace Kubernetes Setup Documentation](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s)
 
 Dynatrace bietet verschiedene Funktionen um einen Kubernetes Cluster zu monitoren. 
-Es werden automatisch Kubernetes-Nodes und -Pods erkannt und kontinuierlich deren Status sowie Ressourcenverbrauch überwacht. Dadurch können Ausfälle und Ressourcenengpässe erkannt werden. Dadurch kann die Ressourcenauslastung besser verstanden und darauf reagiert werden. 
+Es werden automatisch Kubernetes-Nodes und -Pods erkannt und kontinuierlich deren Status sowie Ressourcenverbrauch überwacht. Dadurch können Ausfälle und Ressourcenengpässe erkannt werden. Dadurch kann die Ressourcenauslastung besser verstanden und darauf reagiert werden. Auch Container, Namespaces und Workloads können genauer unter die Lupe genommen werden und deren Auslastung überwacht werden.
 
 Durch das Erstellen von einem Dashboard können weitere Metriken, Ereignisse und Logs zu den Kubernetes-Pods und -Nodes zusammengefasst werden. Diese sind dann übersichtlich in einer einzigen Ansicht angeordnet und können für weitere Analysen genutzt werden. 
-
-Die Logs können auch noch über eine Log-Analyse genauer untersucht werden. Dabei können Einblicke in die Container-Workloads erstellt werden, was auch dabei helfen kann Probleme im System zu identifzieren. 
 
 
 ### Log Monitoring
