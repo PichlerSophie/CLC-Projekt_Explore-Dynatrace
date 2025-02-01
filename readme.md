@@ -280,6 +280,7 @@ Diese kann man dann über die Dashboards aufrufen und analysieren.
 
 Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vulnerabilities und Attacks App aufrufen, um genauere Informationen zu bekommen und genauer zu analysieren, welche Risiken auftreten. 
 
+#### Eine detaillierte Analyse der drei ausgewählten Features befindet sich im Dokument !Verlinkung!
 ---
 ## Lessons Learned
 ### Kubernetes Autopilot Einschränkungen
@@ -291,14 +292,13 @@ Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vul
 - Feintuning von CPU- und Speicherzuweisungen war nötig, um den Standard Cluster zum Laufen zu bringen.
 
 ### Dynatrace Setup & Nutzung
-- Die Einrichtung von Dynatrace erforderte eine gewisse Einarbeitungszeit.
-- Sobald eingerichtet, lieferte Dynatrace wertvolle Einblicke in Performance, Logs und Sicherheit.
+- Die Einrichtung von Dynatrace erforderte eine gewisse Einarbeitungszeit, nach der Einarbeitungszeit war die Bedienung jedoch sehr intuitiv.
+- Sobald Dynatrace eingerichtet war, lieferte es wertvolle Einblicke in Performance, Logs und Sicherheit.
 
 ### Dynatrace bietet starke Monitoring- und Security-Features
 - Kubernetes Monitoring und Log-Analyse waren sehr aufschlussreich.
 - Die Application Security Features waren auch sehr spannend.
-
-### Wertvolle Einblicke in Microservice-Performance
 - Durch Dynatrace konnten Engpässe und Optimierungsmöglichkeiten identifiziert werden.
 - Die Überwachung hilft, Fehlerquellen schnell zu erkennen.
+
 
