@@ -288,8 +288,7 @@ Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vul
 - Für vollständige Observability ist der Standard Kubernetes Cluster besser geeignet.
 
 ### Ressourcenmanagement in Kubernetes
-- Die kostenlose Google Cloud Variante bietet begrenzte Ressourcen, was bei einem großen Microservice zu Engpässen führt.
-- Feintuning von CPU- und Speicherzuweisungen war nötig, um den Standard Cluster zum Laufen zu bringen.
+- Die begrenzte Ressourcenzuweisung der kostenlosen Google Cloud Variante stellte eine große Herausforderung dar. Dynatrace benötigt für die Überwachung und das Sammeln von Metriken ebenfalls signifikante Ressourcen, was zusammen mit dem Microservice zu einer unzureichenden Ressourcenkapazität führte. Dies machte es erforderlich, sowohl die CPU- als auch die Speicherzuweisungen abzustimmen, um den Standard-Cluster stabil  betreiben zu können.
 
 ### Dynatrace Setup & Nutzung
 - Die Einrichtung von Dynatrace erforderte eine gewisse Einarbeitungszeit, nach der Einarbeitungszeit war die Bedienung jedoch sehr intuitiv.
