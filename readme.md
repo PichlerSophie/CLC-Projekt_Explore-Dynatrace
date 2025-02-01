@@ -112,7 +112,7 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    - Alternativ dazu kann die URL auch von Dynatrace aus, aufgerufen werden.
 
 9. **Hinzufügen aller Gruppenmitglieder zum Team**
-   - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
+   - Bei den Projekteinstellungen in der GKE "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
    - Wechsel zu "IAM und Verwaltung"
    - Konto auswählen und "Weitere Rolle hinzufügen" klicken
    - Zuweisung der Rolle `Administrator für Kubernetes Engine Cluster`
@@ -293,12 +293,14 @@ Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vul
 
 ### Dynatrace Setup & Nutzung
 - Die Einrichtung von Dynatrace erforderte eine gewisse Einarbeitungszeit, nach der Einarbeitungszeit war die Bedienung jedoch sehr intuitiv.
+- Sehr gute und umfangreiche Dokumentation.
 - Sobald Dynatrace eingerichtet war, lieferte es wertvolle Einblicke in Performance, Logs und Sicherheit.
 
 ### Dynatrace bietet starke Monitoring- und Security-Features
-- Kubernetes Monitoring und Log-Analyse waren sehr aufschlussreich.
-- Die Application Security Features waren auch sehr spannend.
-- Durch Dynatrace konnten Engpässe und Optimierungsmöglichkeiten identifiziert werden.
-- Die Überwachung hilft, Fehlerquellen schnell zu erkennen.
+- Durch die detaillierte Überwachung des Kubernetes Clusters konnten wir wichtige Erkenntnisse über die Auslastung und das Verhalten gewinnen. Die präzise Erfassung und Analyse der Logs ermöglichte es uns, Fehlerquellen schnell zu identifizieren udn auch interessante Einblicke zu gewinnen. Engpässe und Optimierungsmöglichkeiten konnten dadurch identifiziert werden.
+- Die Application Security Features waren sehr spannend, da man dadurch schnell einen Einblick über potenzielle Risiken bekommt.
+
+### Weitere Dynatrace Features
+- Dynatrace bietet deutlich mehr spannende Funktionen, die jedoch aufgrund von Zeit- und Ressourcenbegrenzungen nicht alle getestet werden konnten.
 
 
