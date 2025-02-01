@@ -1,19 +1,51 @@
 # Kubernetes Monitoring und Deployment Guide
 Wir haben nach längerem Überlegen und Probieren die Dynatrace Features für den Standard Kubernetes Cluster getestet und für den Autopilot Kubernetes Cluster. Darum wird bei der Erklärung zum Aufsetzen des Kubernetes Clusters auf beide Clusterarten eingegangen.
-## Research Summary - ausbauen also kurz zusammenfassen jedes Feature
+## Research Summary
+
+Dynatrace bietet eine Plattform zur Überwachung und Optimierung von Anwendungen, Microservices und Container-Orchestrierungsplattformen wie Kubernetes. Die Plattform bietet dazu verschiedene Lösungen:
+- Infrastructure Observability
+- Application Observabilty
+- Digital Experience
+- Log Analytics
+- Application Security
+- Threat Observability
+- Software Delivery
+- Business Analytics
 
 ### Kubernetes Monitoring
 - [Dynatrace Kubernetes Monitoring Overview](https://www.dynatrace.com/technologies/kubernetes-monitoring/)
 - [Dynatrace Kubernetes Setup Documentation](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s)
 
+Dynatrace bietet verschiedene Funktionen um einen Kubernetes Cluster zu monitoren. 
+Es werden automatisch Kubernetes-Nodes und -Pods erkannt und kontinuierlich deren Status sowie Ressourcenverbrauch überwacht. Dadurch können Ausfälle und Ressourcenengpässe erkannt werden. Dadurch kann die Ressourcenauslastung besser verstanden und darauf reagiert werden. 
+
+Durch das Erstellen von einem Dashboard können weitere Metriken, Ereignisse und Logs zu den Kubernetes-Pods und -Nodes zusammengefasst werden. Diese sind dann übersichtlich in einer einzigen Ansicht angeordnet und können für weitere Analysen genutzt werden. 
+
+Die Logs können auch noch über eine Log-Analyse genauer untersucht werden. Dabei können Einblicke in die Container-Workloads erstellt werden, was auch dabei helfen kann Probleme im System zu identifzieren. 
+
 
 ### Log Monitoring
 - [Dynatrace Log Monitoring Overview](https://www.dynatrace.com/de/platform/log-monitoring/)
+
+Dynatrace bietet umfangreiche Möglichkeiten Logs aus Kubernetes-Clustern zu sammeln, anzuzueigen und zu analysieren. 
+Das Log Monitoring bietet hierbei eine automatische Erkennung der eingehenden Logs. Es werden dabei dabei alle Logs aus verschiedenen Quellen, darunter auch WindowsEvent-Logs, Container-Logs und Anwedungslogs zentral gesammelt werden,  ohne zusätzliche Konfigurationen zu benötigen. 
+
+Um nun diese Logs einzusehen, können diese über eine zentralisierte Übersicht aufgerufen werden. Darin werden zusätzlich noch andere Observability-Daten wie Traces und Metriken kombiniert und angezeigt. So bekommt man ein umfassendes Bild der System-Performance und kann Probleme effizient identifizieren.
+
+Eine weitere Übersicht bietet eine Zeitleiste, die zeigt, wie viele Logs generiert wurden und welchen Status (INFO, WARN, ERROR) sie haben. Über eine Filterfunktion kann man dann nach spezifischen Ereignissen suchen oder ein gewisses Zeitfenster finden. 
+
+Durch dieses Monitoring erhält man Einblicke und kann speziell auf Fehlersuche gehen. Mithilfe einer integrierten Analyse ist es leichter spezifische Fehler oder ungewähnliche Verhaltensweise in Logs aufzuspüren. Dafür kann man zusätzlich die Dynatrace Query Language (DQL) verwenden und Logs dabei flexibel filtern, sortieren und aggregieren. 
 
 ### Application Security
 
 - [Dynatrace Application Security Overview](https://www.dynatrace.com/platform/application-security/)
 - [Dynatrace Application Security Documentation](https://docs.dynatrace.com/docs/secure/application-security)
+
+Mithilfe von Dynatrace können auch Schwachstellen, die sofortiger Aufmerksamkeit bedürfen erkannt werden und eine automatische Risiko- und Auswirkungsbewertung bereitgestellt werden. Dies passiert in Echtzeit und kann über die Vulnerabilities analysiert werden. 
+
+Dynatrace bietet außerdem einen Laufzeit-Anwendungsschutz. Dieser kann in Echtzeit Angriffe auf die Anwendung automatisch erkennen und blockieren, ohne kritische Prozesse zu beeinträchtigen. 
+
+Eine automatische Überprüfung neuer kritscher Schwachstellen hilft dabei die Applikation geschützt vor Angriffen zu halten. Es wird sofort darauf hingewiesen, wenn eine neue Schwachstelle implementiert wurde. Diese Ergebnisse und das Monitoring können ebenfalls in einem zusammengefassten Dashboard analysiert werden. 
 
 ---
 
@@ -121,7 +153,7 @@ kubectl get service frontend-external
 | **adservice**        | Java        | Stellt Textanzeigen basierend auf gegebenen Kontextwörtern bereit.                            |
 | **loadgenerator**         | Python/Locust | Sendet kontinuierlich Anfragen und simuliert realistische Benutzer-Einkaufsflüsse an das Frontend. |
 
-######## Quelle: https://github.com/GoogleCloudPlatform/microservices-demo
+##### Quelle: https://github.com/GoogleCloudPlatform/microservices-demo
 ---
 ## Dynatrace Features Step by Step Tutorial
 ### Kubernetes Monitoring
