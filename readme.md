@@ -278,7 +278,7 @@ Diese kann man dann über die Dashboards aufrufen und analysieren.
 
 Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vulnerabilities und Attacks App aufrufen, um genauere Informationen zu bekommen und genauer zu analysieren, welche Risiken auftreten. 
 
-#### Eine detaillierte Analyse der drei ausgewählten Features befindet sich im Dokument !Verlinkung!
+#### Eine detaillierte Analyse der drei ausgewählten Features befindet sich im Dokument ![Dokumentation](https://github.com/PichlerSophie/CLC-Projekt_Explore-Dynatrace/blob/main/Dokumentation.pdf)
 ---
 ## Lessons Learned
 ### Kubernetes Autopilot Einschränkungen
