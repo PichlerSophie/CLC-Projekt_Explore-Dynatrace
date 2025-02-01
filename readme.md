@@ -248,7 +248,7 @@ Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vul
 
 ### Ressourcenmanagement in Kubernetes
 - Die kostenlose Google Cloud Variante bietet begrenzte Ressourcen, was bei einem großen Microservice zu Engpässen führt.
-- Feintuning von CPU- und Speicherzuweisungen war nötig, um den Cluster effizient zu betreiben.
+- Feintuning von CPU- und Speicherzuweisungen war nötig, um den Standard Cluster zum Laufen zu bringen.
 
 ### Dynatrace Setup & Nutzung
 - Die Einrichtung von Dynatrace erforderte eine gewisse Einarbeitungszeit.
@@ -256,9 +256,9 @@ Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vul
 
 ### Dynatrace bietet starke Monitoring- und Security-Features
 - Kubernetes Monitoring und Log-Analyse waren sehr aufschlussreich.
-- Die Application Security Features waren besonders spannend und haben Spaß gemacht.
+- Die Application Security Features waren auch sehr spannend.
 
 ### Wertvolle Einblicke in Microservice-Performance
 - Durch Dynatrace konnten Engpässe und Optimierungsmöglichkeiten identifiziert werden.
-- Die Überwachung hat geholfen, Fehlerquellen schnell zu erkennen.
+- Die Überwachung hilft, Fehlerquellen schnell zu erkennen.
 
