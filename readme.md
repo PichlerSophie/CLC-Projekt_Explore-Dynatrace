@@ -297,7 +297,7 @@ Hier kann man die Security Overview, Third-Party Vulnerabilities, Code-Level Vul
 - Sobald Dynatrace eingerichtet war, lieferte es wertvolle Einblicke in Performance, Logs und Sicherheit.
 
 ### Dynatrace bietet starke Monitoring- und Security-Features
-- Durch die detaillierte Überwachung des Kubernetes Clusters konnten wir wichtige Erkenntnisse über die Auslastung und das Verhalten gewinnen. Die präzise Erfassung und Analyse der Logs ermöglichte es uns, Fehlerquellen schnell zu identifizieren udn auch interessante Einblicke zu gewinnen. Engpässe und Optimierungsmöglichkeiten konnten dadurch identifiziert werden.
+- Durch die detaillierte Überwachung des Kubernetes Clusters konnten wir wichtige Erkenntnisse über die Auslastung und das Verhalten gewinnen. Die präzise Erfassung und Analyse der Logs ermöglichte es uns, Fehlerquellen schnell zu identifizieren und auch interessante Einblicke zu gewinnen. Engpässe und Optimierungsmöglichkeiten konnten dadurch identifiziert werden.
 - Die Application Security Features waren sehr spannend, da man dadurch schnell einen Einblick über potenzielle Risiken bekommt.
 
 ### Weitere Dynatrace Features
