@@ -70,7 +70,11 @@ Voraussetzung: Google CLoud SDK muss installiert sein
    ```
 
 9. **Projekt im Browser öffnen**
-   - URL: [http://35.225.80.212](http://34.57.8.76)
+   - Mithilfe des nachfolgendem Befehls kann die URL ausgegeben werden, worüber das Frontend des Microservices erreicht werden kann.
+```bash
+kubectl get service frontend-external
+```
+- Alternativ dazu kann die uRL auch von Dynatrace aus, aufgerufen werden.
 
 10. **Hinzufügen aller Gruppenmitglieder zum Team**
    - Bei Projekteinstellungen "Diesem Projekt Personen hinzufügen" klicken & gewünschte Personen hinzufügen
