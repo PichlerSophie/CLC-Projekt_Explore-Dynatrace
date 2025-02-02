@@ -2,7 +2,7 @@
 Wir haben nach längerem Überlegen und Probieren die Dynatrace Features für den Standard Kubernetes Cluster getestet und für den Autopilot Kubernetes Cluster. Darum wird bei der Erklärung zum Aufsetzen des Kubernetes Clusters auf beide Clusterarten eingegangen.
 ## Research Summary
 
-Dynatrace bietet eine Plattform zur Überwachung und Optimierung von Anwendungen, Microservices und Container-Orchestrierungsplattformen wie Kubernetes. Die Plattform bietet dazu verschiedene Lösungen:
+Dynatrace bietet eine Plattform zur Überwachung und Optimierung von Anwendungen, Microservices und Container-Orchestrierungsplattformen wie Kubernetes. Die Plattform nutzt KI-gestützte Automatisierung und Observability-Technologien, um Probleme proaktiv zu erkennen, Ursachenanalysen durchzuführen und Optimierungspotenziale aufzuzeigen. Die Plattform bietet dazu verschiedene Lösungen:
 - Infrastructure Observability
 - Application Observabilty
 - Digital Experience
@@ -17,7 +17,7 @@ Dynatrace bietet eine Plattform zur Überwachung und Optimierung von Anwendungen
 - [Dynatrace Kubernetes Setup Documentation](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s)
 
 Dynatrace bietet verschiedene Funktionen um einen Kubernetes Cluster zu monitoren. 
-Es werden automatisch Kubernetes-Nodes und -Pods erkannt und kontinuierlich deren Status sowie Ressourcenverbrauch überwacht. Dadurch können Ausfälle und Ressourcenengpässe erkannt werden. Dadurch kann die Ressourcenauslastung besser verstanden und darauf reagiert werden. Auch Container, Namespaces und Workloads können genauer unter die Lupe genommen werden und deren Auslastung überwacht werden.
+Es werden automatisch Kubernetes-Nodes und -Pods erkannt und kontinuierlich deren Status sowie Ressourcenverbrauch überwacht. Dadurch können Ausfälle und Ressourcenengpässe erkannt werden. Die Ressourcenauslastung kann dadurch besser verstanden und darauf reagiert werden. Auch Container, Namespaces und Workloads können genauer unter die Lupe genommen werden und deren Auslastung überwacht werden.
 
 Durch das Erstellen von einem Dashboard können weitere Metriken, Ereignisse und Logs zu den Kubernetes-Pods und -Nodes zusammengefasst werden. Diese sind dann übersichtlich in einer einzigen Ansicht angeordnet und können für weitere Analysen genutzt werden. 
 
